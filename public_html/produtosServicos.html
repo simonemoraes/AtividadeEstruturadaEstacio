@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Planos de Saúde</title>
+
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+        <link type="text/css" rel="stylesheet" href="css/estilo.css"/>
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <div class="navbar-fixed">
+            <nav class="blue darken-3">
+
+                <div class="nav-wrapper">
+                    <a id="div" href="index.html" class="brand-logo">Produtos & Planos</a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse">
+                        <i class="mdi-navigation-menu"></i>
+                    </a>
+
+                    <!-- menu -->
+                    <ul class="right hide-on-med-and-down" >
+                        <li class="active"><a href="index.html" id="menuMobile_home"><i class="large material-icons">home</i></a></li> 
+                                           
+                        <li class="active"><a id="navMobile_produtos"  href="#"></a></li>                       
+                        <li class="active"><a id="navMobile_planos"  href="#"></a></li>                       
+                        
+
+                    </ul>
+                    <!-- ./menu -->
+
+                    <!-- menu-mobile -->
+                    <ul class="side-nav" id="mobile-demo">
+                        <li class="active"><a id="menudemo_home" href="index.html">Home</a></li>                      
+                        <li class="no active"><a href="#"></a></li>
+                        <li class="no ctive"><a href="#"></a></li>                       
+                    </ul>
+                    <!-- ./menu-mobile -->
+
+                </div>
+            </nav>
+        </div>
+        <!-- ./navbar -->
+        
+        <!-- slider -->
+        <section class="cyan lighten-5 sessao_slider_produto">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/slider_produtos/img1.jpg" class="responsive-img" id="imgProduto1">                        
+                    </li>
+
+                    <li>
+                        <img src="img/slider_produtos/img2.jpg" class="responsive-img">                      
+                    </li>
+
+                    <li>
+                        <img src="img/slider_produtos/img3.jpg" class="responsive-img">
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <!-- ./slider -->
+        
+        <!-- produtos -->
+
+        <section class="espacamentoSuperior" style="padding-top: 40px; padding-bottom: 40px;">
+            <div class="container div_container col s12 m12 l12 blue lighten-4" id="container">
+                <div class="row">
+                    <div id="titulo_produtos">
+                        <h3 class="center-align">Produtos</h3>
+                        <p class="flow-text  center-align">Planos com um atendimento pleno, que 
+                            oferecem cobertura nacional em uma rede credenciada abrangente e de alto nível.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6 l3" id="divCard_produtos" >
+                        <div class="card z-depth-5">
+                            <div class="card-image center-align">
+                                <img class="responsive-img" src="img/logo_convenio/amil.png">
+                            </div>
+                            <div class="card-content teal" id="divContent_produtos">
+                                <span class="white-text left-align">
+                                    Os melhores <strong>Hospitais</strong> e <strong>Profissionais</strong> do Brasil.                                                              
+                                    Aproveite os benefícios e vantagens acrescentados aos nossos planos.<br/><br/>
+                                    - Cobertura Nacional<br/>
+                                    - Livre escolha com reembolso de consulta*</br>
+                                    - Analisamos redução de carências do seu plano anterior                                      
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6 l3" id="divCard_produtos">
+                        <div class="card z-depth-5">
+                            <div class="card-image center-align">
+                                <img class="responsive-img" src="img/logo_convenio/unimed.png">
+                            </div>
+                            <div class="card-content teal"  id="divContent_produtos">
+                                <span class="white-text">Prevenção à saúde com qualidade, 
+                                    com diferenciais humanos e técnicos, 
+                                    excelência no atendimento e com garantia Unimed.<br/>
+                                    - Abrangência: Nacional, Estadual e Regional.<br/>
+                                    - Acomodação: Apartamento ou enfermaria<br/>
+                                    - Pessoa Jurídica ou Pessoa Física
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6 l3" id="divCard_produtos">
+                        <div class="card z-depth-5">
+                            <div class="card-image center-align">
+                                <img class="responsive-img" src="img/logo_convenio/golden.png">
+                            </div>
+                            <div class="card-content teal" id="divContent_produtos">
+                                <span class="white-text">Saúde suplementar e excelência no atendimento, 
+                                    uma referência no setor de saúde suplementar em todo território nacional, 
+                                    com uma ampla e qualificada rede referenciada.<br/>
+                                    - Médicos, clínicas e consultórios<br/>
+                                    - Hospitais, e laboratórios<br/>
+                                    - Atendimento Odontológico
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6 l3 " id="divCard_produtos">
+                        <div class="card z-depth-5">
+                            <div class="card-image center-align">
+                                <img class="responsive-img" src="img/logo_convenio/sul_america.png">
+                            </div>
+                            <div class="card-content teal" id="divContent_produtos">
+                                <span class="white-text">O <strong>SulAmérica</strong> Saúde assegura qualidade de vida e 
+                                    bem-estar para você e sua família. Além da rede referenciada, o seguro 
+                                    oferece vantagens, benefícios, descontos e programas especiais para proporcionar 
+                                    a tranquilidade que vocês necessitam.
+
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            
+            <div class="container div_container blue lighten-4">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="center-align">Planos</h2>
+                        <p class="flow-text center-align">Conheça abaixo as formas de contrataçao</p>
+                    </div>
+                </div>
+
+                <!-- cards -->
+                <div class="row">
+
+                    <!-- cards familiar -->
+                    <div class="col s12 m6 l3 div-cards ">                       
+                        <div class="card z-depth-4">
+                            <div class="card-image">
+                                <img class="img-cards" src="img/cards/plano_familiar.jpg">                               
+                            </div>
+                            <div class="card-content" id="div_content">
+                                <h5><strong>Familiar</strong></h5>
+                                <p>Os melhores hospitais oferecidos para você e sua família.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="formulario_orcamento.html" class="waves-effect waves-light btn">Solicite Orçamento</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./cards familiar -->
+
+                    <!-- cards empresarial -->
+                    <div class="col s12 m6 l3 div-cards">
+                        <div class="card z-depth-4">
+                            <div class="card-image">
+                                <img class="img-cards" src="img/cards/plano_empresarial.jpg">                               
+                            </div>
+                            <div class="card-content" id="div_content">
+                                <h5><strong>Empresarial</strong></h5>
+                                <p>Você e seus funcionários merecem o melhor plano de saúde.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="formulario_orcamento.html" class="waves-effect waves-light btn">Solicite Orçamento</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./cards empresarial -->
+
+                    <!-- cards adesao -->
+                    <div class="col s12 m6 l3 div-cards">
+                        <div class="card z-depth-4">
+                            <div class="card-image">
+                                <img class="img-cards" src="img/cards/plano_adesao.png">
+                            </div>
+                            <div class="card-content" id="div_content">
+                                <h5><strong>Por Adesão</strong></h5>
+                                <p>Planos com descontos especiais para diversas entidades de classe.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="formulario_orcamento.html" class="waves-effect waves-light btn">Solicite Orçamento</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./cards adesao -->
+
+                    <!-- cards dental -->
+                    <div class="col s12 m6 l3 div-cards">
+                        <div class="card z-depth-4">
+                            <div class="card-image">
+                                <img class="img-cards" src="img/cards/plano_dental.png">
+                            </div>
+                            <div class="card-content" id="div_content">
+                                <h5><strong>Odontológico</strong></h5>
+                                <p>Confira nosso plano odontológico, rede credenciada, e valores.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="formulario_orcamento.html" class="waves-effect waves-light btn center-align">Solicite Orçamento</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./cards dental -->
+
+                </div>
+                <!-- ./cards -->
+
+            </div>
+        </section>
+
+        <!-- ./produtos -->
+
+        <!-- planos -->
+
+        <section class="blue lighten-4">
+            
+        </section>
+        <!-- ./planos -->
+
+        
+        <!-- rodape -->
+        <footer class="rodape page-footer blue darken-3">
+            <section>
+               
+
+                <div class="footer-copyright col s12 m12 l12  blue darken-4">
+                    <div class="container div_container center-align">
+                        Todos os Direitos Reservados a <strong>RS Soluções</strong>
+                    </div>
+                </div>
+
+            </section>
+        </footer>
+
+
+        <!-- ./rodape -->
+
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/jscript.js"></script>
+    </body>
+</html>

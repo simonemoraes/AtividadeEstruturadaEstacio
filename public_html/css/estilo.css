@@ -12,7 +12,7 @@
     color: black;  
 }
 
-.slider.fullscreen {
+.slider .fullscreen {
     bottom: 0;
     height: 100%;
     left: 0;
@@ -21,6 +21,9 @@
     top: 0;
     width: 100%;
 }
+
+
+
 /*Configura o topo do texto do slider 3*/
 #text_slider3 {
     top: 50%;
@@ -36,16 +39,23 @@
 }
 /* fim slider */
 
+#text_sliderProdutos1 {
+    top: 80%;
+}
+
 
 /* sessoes */
 /* Configura a largura dos containers de todas as sessões */
 .div_container {
     width: 80%;
     height: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 /* configura o padding das sessoes */
-.produtos, .planos, .sobre-o-corretor, .fale-conosco {
+.produtos, .planos, .nossaHistoria, .fale-conosco {
     padding-bottom: 25px;
     opacity: 0;/*aplica opacidade '0' nas sessoes para entao configurar o scrollfire via jQuery*/
 }
@@ -73,6 +83,7 @@ img.responsive-img {
 
     height: 277.5px;
     padding: 10px;
+    
 }
 
 
